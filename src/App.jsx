@@ -11,6 +11,15 @@ function App() {
       <div class="justify-self-end w-1/2 text-[32px] p-30">
         <p className="summary">As an aspiring software engineer/developer, I am currently studying a Certificate IV in IT (Programming) at TAFE SA having previously studied in Singapore and Australia. In Singapore, I earned awards in yearly national and international robotics competitions as a vice-president and secretary of publicity of my secondary school's robotics club. In Australia, I was appointed as a head prefect and maths prefect, organizing events and designing promotional content in senior high school.</p>
         
+        <h2>&#62; Skills</h2>
+        <ul>
+          <li>HTML5</li>
+          <li>TailwindCSS</li>
+          <li>Python</li>
+          <li>C#</li>
+          <li>Java</li>
+        </ul>
+
         <h2>&#62; Education</h2>
         {/* TAFE SA */}
         <div>
