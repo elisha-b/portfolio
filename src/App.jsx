@@ -8,7 +8,7 @@ function App() {
           <h1>&#62; <span class="text-[#33FFCF]">Elisha Balat</span></h1>
           <h2>Aspiring software engineer/developer.</h2>
         </div>
-      <div class="justify-self-end w-1/2 text-[32px] p-30">
+      <div class="absolute inset-y-0 right-0 w-1/2 text-[32px] p-30">
         <p className="summary">As an aspiring software engineer/developer, I am currently studying a Certificate IV in IT (Programming) at TAFE SA having previously studied in Singapore and Australia. In Singapore, I earned awards in yearly national and international robotics competitions as a vice-president and secretary of publicity of my secondary school's robotics club. In Australia, I was appointed as a head prefect and maths prefect, organizing events and designing promotional content in senior high school.</p>
         
         <h2>&#62; Skills</h2>
