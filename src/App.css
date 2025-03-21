@@ -39,6 +39,9 @@
   h2 {
     font-size: 24px;
   }
+  h3 {
+    font-size: 18px;
+  }
   .main {
     display: block;
     padding: 30px;
@@ -51,8 +54,8 @@
     margin-top: 50px;
   }
   .logo {
-    height: 50px;
-    width: 50px;
+    height: 45px;
+    width: 45px;
   }
 }
 
