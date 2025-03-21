@@ -9,7 +9,7 @@ function App() {
         {/* Introduction */}
         <div className="intro">
           <div className="intro-fixed">
-            <h2 class="text-[36px] mt-40 mb-[-30px] font-semibold">Hi,  I'm</h2>
+            <h2 class="text-[36px] mt-40 mb-[-15px] font-semibold">Hi,  I'm</h2>
             <h1 class="text-[72px] font-bold">Elisha Balat &#128075;</h1>
             <h2 class="text-[36px] leading-[40px]">Aspiring software <span className="highlight">developer.</span> </h2>
             <div class="inline-flex mt-70">
