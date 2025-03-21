@@ -36,25 +36,25 @@ function App() {
           <div>
             <h2 class="text-[36px] mt-10 font-semibold">Education</h2>
             <div>
-              <h3 class="text-[28px] mt-3 h-[45px]"><span className="highlight">TAFE SA</span></h3>
+              <h3 class="text-[28px] mt-3"><span className="highlight">TAFE SA</span></h3>
               <p className="country">Australia</p>
               <h4 class="inline-block w-2/3"><span className="highlight">Certificate IV in IT (Programming)</span></h4>
-              <h4 class="inline-block w-1/3 text-right italic"><span className="highlight">Expected Jul 2025</span></h4>
+              <h4 class="inline-block w-1/3 text-right italic"><span className="highlight">Expected Jul '25</span></h4>
               <ul class="list-disc ml-6">
                 <li>Java, Python, HTML5/CSS, C#, JavaScript, MySQL, XAML, PHP</li>
                 <li>Git, Git Bash, TortoiseGit, XAMPP, Power BI, UML, Azure</li>
               </ul>
               <h4 class="inline-block w-2/3">Certificate III in IT</h4>
-              <h4 class="inline-block w-1/3 text-right italic">Jan 2024 - Jul 2024</h4>
+              <h4 class="inline-block w-1/3 text-right italic">Jan '24 - Jul '24</h4>
               <ul class="list-disc ml-6">
                 <li>Python, HTML5/CSS</li>
               </ul>
             </div>
             <div>
-              <h3 class="text-[28px] mt-10 h-[45px]">Underdale High School</h3>
+              <h3 class="text-[28px] mt-10">Underdale High School</h3>
               <p className="country">Australia</p>
               <h4 class="inline-block w-2/3">South Australian Certificate of Education</h4>
-              <h4 class="inline-block w-1/3 text-right italic">Jan 2022 - Dec 2023</h4>
+              <h4 class="inline-block w-1/3 text-right italic">Jan '22 - Dec '23</h4>
               <ul class="list-disc ml-6">
                 <li>Head Prefect, Math Learning Area Leader</li>
                 <li>Stage 2 Academic Award for English Literary Studies</li>
@@ -63,10 +63,10 @@ function App() {
               </ul>
             </div>
             <div>
-              <h3 class="text-[28px] mt-10 h-[45px]">Pei Hwa Secondary School</h3>
+              <h3 class="text-[28px] mt-10">Pei Hwa Secondary School</h3>
               <p className="country">Singapore</p>
               <h4 class="inline-block w-2/3">Year 7 - 9</h4>
-              <h4 class="inline-block w-1/3 text-right italic">Jan 2022 - Dec 2023</h4>
+              <h4 class="inline-block w-1/3 text-right italic">Jan '22 - Dec '23</h4>
               <ul class="list-disc ml-6">
                 <li>Vice-president of Robotics Club, Secretary of Publicity of Robotics Club</li>
                 <li>1st Team Placing RoboCup Singapore Open 2019 - RoboCup Asia-Pacific, CoSpace Rescue U19</li>
