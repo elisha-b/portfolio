@@ -30,6 +30,15 @@
 }
 
 @media (max-width: 1080px) {
+  body {
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 56px;
+  }
+  h2 {
+    font-size: 28px;
+  }
   .main {
     display: block;
     padding: 30px;
@@ -42,8 +51,8 @@
     margin-top: 50px;
   }
   .logo {
-    height: 75px;
-    width: 75px;
+    height: 50px;
+    width: 50px;
   }
 }
 
