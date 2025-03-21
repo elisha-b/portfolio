@@ -5,21 +5,23 @@ import './App.css'
 function App() { 
   return (
     <>
-      <div class="max-w-full grid grid-cols-2 grid-rows-1 p-30">
-        <div class="">
-          <div class="fixed">
+      <div className="main">
+        {/* Introduction */}
+        <div className="intro">
+          <div className="intro-fixed">
             <h2 class="text-[36px] mt-40 mb-[-50px] font-semibold">Hi,  I'm</h2>
             <h1 class="text-[72px] font-bold">Elisha Balat &#128075;</h1>
-            <h2 class="text-[36px]">Aspiring software engineer/developer.</h2>
+            <h2 class="text-[36px] leading-[40px]">Aspiring software <span className="highlight">developer.</span> </h2>
             <div class="inline-flex mt-70">
               <a href="https://www.linkedin.com/in/elisha-balat/" target="_blank"><img src={linkedInLogo} className="logo" /></a>
               <a href="https://github.com/elisha-b" target="_blank"><img src={gitHubLogo} className="logo" /></a>
             </div>
           </div>
         </div>
-        <div class="p-15">
+        {/* Information */}
+        <div className="info">
           <div>
-            <p class="text-justify">As an aspiring software engineer/developer, I am currently studying a Certificate IV in IT (Programming) at TAFE SA having previously studied in Singapore and Australia. In Singapore, I earned awards in yearly national and international robotics competitions as a vice-president and secretary of publicity of my secondary school's robotics club. In Australia, I was appointed as a head prefect and maths prefect, organizing events and designing promotional content in senior high school.</p>
+            <p class="text-justify">As an aspiring developer, I am currently studying a <span className="highlight">Certificate IV in IT (Programming)</span>  at TAFE SA having previously studied in Singapore and Australia. In Singapore, I earned awards in yearly national and international robotics competitions as a vice-president and secretary of publicity of my secondary school's robotics club. In Australia, I was appointed as a head prefect and maths prefect, organizing events and designing promotional content in senior high school.</p>
           </div>
           <div>
             <h2 class="text-[36px] mt-10 font-semibold">Skills</h2>
@@ -34,9 +36,10 @@ function App() {
           <div>
             <h2 class="text-[36px] mt-10 font-semibold">Education</h2>
             <div>
-              <h3 class="text-[24px] mt-3">TAFE SA</h3>
-              <h4 class="inline-block w-2/3">Certificate IV in IT (Programming)</h4>
-              <h4 class="inline-block w-1/3 text-right italic">Expected Jul 2025</h4>
+              <h3 class="text-[28px] mt-3 h-[45px]"><span className="highlight">TAFE SA</span></h3>
+              <p class="inline-block w-full text-[18px] italic text-gray-400">Australia</p>
+              <h4 class="inline-block w-2/3"><span className="highlight">Certificate IV in IT (Programming)</span></h4>
+              <h4 class="inline-block w-1/3 text-right italic"><span className="highlight">Expected Jul 2025</span></h4>
               <ul class="list-disc ml-6">
                 <li>Java, Python, HTML5/CSS, C#, JavaScript, MySQL, XAML, PHP</li>
                 <li>Git, Git Bash, TortoiseGit, XAMPP, Power BI, UML, Azure</li>
@@ -48,7 +51,8 @@ function App() {
               </ul>
             </div>
             <div>
-              <h3 class="text-[24px] mt-10">Underdale High School</h3>
+              <h3 class="text-[28px] mt-10 h-[45px]">Underdale High School</h3>
+              <p class="inline-block w-full text-[18px] italic text-gray-400">Australia</p>
               <h4 class="inline-block w-2/3">South Australian Certificate of Education</h4>
               <h4 class="inline-block w-1/3 text-right italic">Jan 2022 - Dec 2023</h4>
               <ul class="list-disc ml-6">
@@ -59,7 +63,8 @@ function App() {
               </ul>
             </div>
             <div>
-              <h3 class="text-[24px] mt-10">Pei Hwa Secondary School</h3>
+              <h3 class="text-[28px] mt-10 h-[45px]">Pei Hwa Secondary School</h3>
+              <p class="inline-block w-full text-[18px] italic text-gray-400">Singapore</p>
               <h4 class="inline-block w-2/3">Year 7 - 9</h4>
               <h4 class="inline-block w-1/3 text-right italic">Jan 2022 - Dec 2023</h4>
               <ul class="list-disc ml-6">

@@ -8,6 +8,51 @@
   margin-right: 5px;
 }
 
+.highlight {
+  color: #33ffcf;
+  font-weight: 500;
+}
+
+.main {
+  display: grid;
+  max-width: 100%;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-rows: repeat(1, minmax(0, 1fr));
+  padding: 130px;
+}
+
+.intro-fixed {
+  position: fixed;
+}
+
+.info {
+  padding: 50px
+}
+
+@media (max-width: 1080px) {
+  .main {
+    display: block;
+    padding: 30px;
+  }  
+  .intro-fixed {
+    position: relative;
+  }
+  .info {
+    padding: 0;
+    margin-top: 50px;
+  }
+  .logo {
+    height: 75px;
+    width: 75px;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .highlight {
+    color: #01ac84;
+    font-weight: 500;
+  }
+}
 
 /* #root {
   margin: 0 auto;
