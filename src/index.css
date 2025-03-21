@@ -2,10 +2,12 @@
 
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.2;
+  line-height: 2;
   font-weight: 400;
+  max-width: 100%;
+  width: 100%;
 
-  color-scheme: light dark;
+  color-scheme: dark;
   color: #fbfef9;
   background-color: #171A21;
 
@@ -16,16 +18,34 @@
 }
 
 body {
-  margin: 0;
+  margin: 0px;
   display: flex;
   place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  font-size: 20px;
+}
+
+#cursor-light {
+  height: 15em;
+  width: 15em;
+  background-color: #3c5dff;
+  filter: blur(120px);
+  opacity: calc(15%);
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
-    background-color: #ffffff;
+    color: #171A21;
+    background-color: #fbfef9;
+  }
+  .logo {
+    filter: invert(90%)
+  }
+  #cursor-light {
+    opacity: calc(0%);
   }
 }
+
