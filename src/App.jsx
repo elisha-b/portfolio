@@ -66,7 +66,7 @@ function App() {
               <h3 class="text-[28px] mt-10">Pei Hwa Secondary School</h3>
               <p className="country">Singapore</p>
               <h4 class="inline-block w-2/3">Year 7 - 9</h4>
-              <h4 class="inline-block w-1/3 text-right italic">Jan '22 - Dec '23</h4>
+              <h4 class="inline-block w-1/3 text-right italic">Jan '19 - Dec '21</h4>
               <ul class="list-disc ml-6">
                 <li>Vice-president of Robotics Club, Secretary of Publicity of Robotics Club</li>
                 <li>1st Team Placing RoboCup Singapore Open 2019 - RoboCup Asia-Pacific, CoSpace Rescue U19</li>
