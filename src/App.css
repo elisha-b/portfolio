@@ -13,6 +13,14 @@
   font-weight: 500;
 }
 
+.country {
+  width: 100%;
+  font-size: 18px;
+  font-style: italic;
+  color: var(--color-gray-400);
+  display: inline-block;
+}
+
 .main {
   display: grid;
   max-width: 100%;
@@ -41,6 +49,9 @@
   }
   h3 {
     font-size: 18px;
+  }
+  .country {
+    font-size: 11px;
   }
   .main {
     display: block;

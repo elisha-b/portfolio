@@ -37,7 +37,7 @@ function App() {
             <h2 class="text-[36px] mt-10 font-semibold">Education</h2>
             <div>
               <h3 class="text-[28px] mt-3 h-[45px]"><span className="highlight">TAFE SA</span></h3>
-              <p class="inline-block w-full text-[18px] italic text-gray-400">Australia</p>
+              <p className="country">Australia</p>
               <h4 class="inline-block w-2/3"><span className="highlight">Certificate IV in IT (Programming)</span></h4>
               <h4 class="inline-block w-1/3 text-right italic"><span className="highlight">Expected Jul 2025</span></h4>
               <ul class="list-disc ml-6">
@@ -52,7 +52,7 @@ function App() {
             </div>
             <div>
               <h3 class="text-[28px] mt-10 h-[45px]">Underdale High School</h3>
-              <p class="inline-block w-full text-[18px] italic text-gray-400">Australia</p>
+              <p className="country">Australia</p>
               <h4 class="inline-block w-2/3">South Australian Certificate of Education</h4>
               <h4 class="inline-block w-1/3 text-right italic">Jan 2022 - Dec 2023</h4>
               <ul class="list-disc ml-6">
@@ -64,7 +64,7 @@ function App() {
             </div>
             <div>
               <h3 class="text-[28px] mt-10 h-[45px]">Pei Hwa Secondary School</h3>
-              <p class="inline-block w-full text-[18px] italic text-gray-400">Singapore</p>
+              <p className="country">Singapore</p>
               <h4 class="inline-block w-2/3">Year 7 - 9</h4>
               <h4 class="inline-block w-1/3 text-right italic">Jan 2022 - Dec 2023</h4>
               <ul class="list-disc ml-6">
