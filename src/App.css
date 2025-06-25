@@ -46,24 +46,24 @@ a:hover {
 }
 
 .info {
-  padding: 50px
+  padding: 30px
 }
 
 @media (max-width: 1080px) {
   body {
-    font-size: 12px;
+    font-size: 18px;
   }
   h1 {
     font-size: 48px;
   }
   h2 {
-    font-size: 24px;
+    font-size: 28px;
   }
   h3 {
-    font-size: 18px;
+    font-size: 24px;
   }
   .country {
-    font-size: 11px;
+    font-size: 18px;
   }
   .main {
     display: block;

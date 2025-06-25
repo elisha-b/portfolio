@@ -55,11 +55,10 @@ function App() {
             <div>
               <h3 class="text-[28px] mt-10">Underdale High School</h3>
               <p className="country">Australia</p>
-              <h4 class="inline-block w-2/3">South Australian Certificate of Education</h4>
+              <h4 class="inline-block w-2/3">Year 11 - 12 | South Australian Certificate of Education (SACE)</h4>
               <h4 class="inline-block w-1/3 text-right italic">Jan '22 - Dec '23</h4>
               <ul class="list-disc ml-6">
                 <li>Head Prefect, Math Learning Area Leader</li>
-                <li>South Australian Certificate of Education (SACE)</li>
                 <li>Stage 2 Academic Award for English Literary Studies</li>
                 <li>Success Through Resilience Award</li>
                 <li>Certificate of Distinction - Australian Mathematics Competition</li>
