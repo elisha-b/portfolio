@@ -13,8 +13,8 @@ function App() {
             <h1 class="text-[72px] font-bold">Elisha Balat &#128075;</h1>
             <h2 class="text-[36px] leading-[40px]">Aspiring <span className="highlight">developer.</span> </h2>
             <div class="inline-flex mt-70">
-              <a href="https://www.linkedin.com/in/elisha-balat/" target="_blank"><img src={linkedInLogo} className="logo" /></a>
-              <a href="https://github.com/elisha-b" target="_blank"><img src={gitHubLogo} className="logo" /></a>
+              <a href="https://www.linkedin.com/in/elisha-balat/" target="_blank"><img src={linkedInLogo} alt="LinkedIn Logo" className="logo" /></a>
+              <a href="https://github.com/elisha-b" target="_blank"><img src={gitHubLogo} alt="GitHub Logo" className="logo" /></a>
             </div>
           </div>
         </div>
@@ -24,9 +24,9 @@ function App() {
             <p class="text-justify">As an aspiring developer, I am currently enrolled in a <span className="highlight">Diploma of IT (Advanced Programming)</span>  at TAFE SA having previously studied in Singapore and Australia. In Singapore, I earned awards in yearly national and international robotics competitions as a vice-president and secretary of publicity of my secondary school's robotics club. In Australia, I was appointed as a head prefect and maths prefect, organizing events and designing promotional content in senior high school.</p>
           </div>
           <div>
-            <h2 class="text-[36px] mt-10 font-semibold">Skills</h2>
+            <h2 class="text-[36px] mt-10 font-semibold">Key Skills</h2>
             <ul class="list-disc ml-6">
-              <li>HTML5/CSS</li>
+              <li>HTML/CSS</li>
               <li>Python</li>
               <li>C#</li>
               <li>PHP</li>
@@ -34,10 +34,17 @@ function App() {
             </ul>
           </div>
           <div>
+            <h2 class="text-[36px] mt-10 font-semibold">Projects & Experience</h2>
+            <h3 class="text-[28px] mt-3"><a href="https://github.com/elisha-b/coursework-projects" target="_blank" class="highlight">Coursework Projects GitHub Repository</a></h3>
+            <p class="text-justify">Developed and designed several coursework projects across various languages that are the highlights of my academic programming journey from July 2024 to June 2025.</p>
+            <h3 class="text-[28px] mt-10">Volunteer Student IT Support Desk</h3>
+            <p class="text-justify">Assisted in providing face-to-face IT support to staff and students including password resets and connecting devices to the wireless network, worked under pressure as part of a team, and assisted individuals from non-English speaking backgrounds at TAFE SA Adelaide City Campus in February 2025.</p>
+          </div>
+          <div>
             <h2 class="text-[36px] mt-10 font-semibold">Education</h2>
             <div>
-              <h3 class="text-[28px] mt-3"><a href="https://www.tafesa.edu.au" target="_blank" class="hover:oklch(0.6 0.118 184.704)">TAFE SA</a></h3>
-              <p className="country">Australia</p>
+              <h3 class="text-[28px] mt-3"><a href="https://www.tafesa.edu.au" target="_blank" class="highlight">TAFE SA</a></h3>
+              <p className="country">South Australia</p>
               <h4 class="inline-block w-2/3"><span className="highlight">Diploma of IT (Advanced Programming)</span></h4>
               <h4 class="inline-block w-1/3 text-right italic"><span className="highlight">Expected Jul '26</span></h4>
               <h4 class="inline-block w-2/3">Certificate IV in IT (Programming)</h4>
@@ -53,8 +60,8 @@ function App() {
               </ul>
             </div>
             <div>
-              <h3 class="text-[28px] mt-10">Underdale High School</h3>
-              <p className="country">Australia</p>
+              <h3 class="text-[28px] mt-10"><a href="https://www.underdale.sa.edu.au/" target="_blank">Underdale High School</a></h3>
+              <p className="country">South Australia</p>
               <h4 class="inline-block w-2/3">Year 11 - 12 • South Australian Certificate of Education (SACE)</h4>
               <h4 class="inline-block w-1/3 text-right italic">Jan '22 - Dec '23</h4>
               <ul class="list-disc ml-6">
@@ -65,7 +72,7 @@ function App() {
               </ul>
             </div>
             <div>
-              <h3 class="text-[28px] mt-10">Pei Hwa Secondary School</h3>
+              <h3 class="text-[28px] mt-10"><a href="https://www.peihwasec.moe.edu.sg/" target="_blank">Pei Hwa Secondary School</a></h3>
               <p className="country">Singapore</p>
               <h4 class="inline-block w-2/3">Year 7 - 9</h4>
               <h4 class="inline-block w-1/3 text-right italic">Jan '19 - Dec '21</h4>
