@@ -19,19 +19,19 @@ function istouchDevice() {
     return false;
   }
 }
+//TODO: Fix cursor light
+// const move = (e) => {
+//   try {
+//     var x = !istouchDevice() ? e.pageX : e.touches[0].pageX;
+//     var y = !istouchDevice() ? e.pageY : e.touches[0].pageY;
+//   } catch (e) {}
+//   cursorLight.style.left = x + "px";
+//   cursorLight.style.top = y + "px";
+// };
 
-const move = (e) => {
-  try {
-    var x = !istouchDevice() ? e.pageX : e.touches[0].pageX;
-    var y = !istouchDevice() ? e.pageY : e.touches[0].pageY;
-  } catch (e) {}
-  cursorLight.style.left = x + "px";
-  cursorLight.style.top = y + "px";
-};
-
-document.addEventListener("mousemove", (e) => {
-  move(e);
-});
-document.addEventListener("touchmove", (e) => {
-  move(e);
-});
+// document.addEventListener("mousemove", (e) => {
+//   move(e);
+// });
+// document.addEventListener("touchmove", (e) => {
+//   move(e);
+// });

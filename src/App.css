@@ -9,8 +9,20 @@
 }
 
 .highlight {
-  color: #33ffcf;
+  color: #60ffad;
   font-weight: 500;
+  transition: 0.2s;
+}
+
+a {
+  color: #60ffad;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+a:hover {
+  color: #44dd8e;
+  transition: 0.2s;
 }
 
 .country {
@@ -72,9 +84,21 @@
 
 @media (prefers-color-scheme: light) {
   .highlight {
-    color: #01ac84;
-    font-weight: 500;
-  }
+  color: #1bcd71;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+a {
+  color: #1bcd71;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+a:hover {
+  color: #1bac61;
+  transition: 0.2s;
+} 
 }
 
 /* #root {

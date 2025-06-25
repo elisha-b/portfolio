@@ -9,9 +9,9 @@ function App() {
         {/* Introduction */}
         <div className="intro">
           <div className="intro-fixed">
-            <h2 class="text-[36px] mt-40 mb-[-15px] font-semibold">Hi,  I'm</h2>
+            <h2 class="text-[36px] mt-40 mb-[-15px] font-semibold">Hi, I'm</h2>
             <h1 class="text-[72px] font-bold">Elisha Balat &#128075;</h1>
-            <h2 class="text-[36px] leading-[40px]">Aspiring software <span className="highlight">developer.</span> </h2>
+            <h2 class="text-[36px] leading-[40px]">Aspiring <span className="highlight">developer.</span> </h2>
             <div class="inline-flex mt-70">
               <a href="https://www.linkedin.com/in/elisha-balat/" target="_blank"><img src={linkedInLogo} className="logo" /></a>
               <a href="https://github.com/elisha-b" target="_blank"><img src={gitHubLogo} className="logo" /></a>
@@ -26,26 +26,28 @@ function App() {
           <div>
             <h2 class="text-[36px] mt-10 font-semibold">Skills</h2>
             <ul class="list-disc ml-6">
-              <li>HTML5</li>
-              <li>TailwindCSS</li>
+              <li>HTML5/CSS</li>
               <li>Python</li>
               <li>C#</li>
+              <li>PHP</li>
               <li>Java</li>
             </ul>
           </div>
           <div>
             <h2 class="text-[36px] mt-10 font-semibold">Education</h2>
             <div>
-              <h3 class="text-[28px] mt-3"><span className="highlight">TAFE SA</span></h3>
+              <h3 class="text-[28px] mt-3"><a href="https://www.tafesa.edu.au" target="_blank" class="hover:oklch(0.6 0.118 184.704)">TAFE SA</a></h3>
               <p className="country">Australia</p>
-              <h4 class="inline-block w-2/3"><span className="highlight">Certificate IV in IT (Programming)</span></h4>
-              <h4 class="inline-block w-1/3 text-right italic"><span className="highlight">Expected Jul '25</span></h4>
+              <h4 class="inline-block w-2/3"><span className="highlight">Diploma of IT (Advanced Programming)</span></h4>
+              <h4 class="inline-block w-1/3 text-right italic"><span className="highlight">Expected Jul '26</span></h4>
+              <h4 class="inline-block w-2/3">Certificate IV in IT (Programming)</h4>
+              <h4 class="inline-block w-1/3 text-right italic">Expected Jul '25</h4>
               <ul class="list-disc ml-6">
                 <li>Java, Python, HTML5/CSS, C#, JavaScript, MySQL, XAML, PHP</li>
-                <li>Git, Git Bash, TortoiseGit, XAMPP, Power BI, UML, Azure</li>
+                <li>Git, Git Bash, TortoiseGit, XAMPP, Power BI, UML, AWS, NUnit</li>
               </ul>
               <h4 class="inline-block w-2/3">Certificate III in IT</h4>
-              <h4 class="inline-block w-1/3 text-right italic">Jan '24 - Jul '24</h4>
+              <h4 class="inline-block w-1/3 text-right italic">Completed Jul '24</h4>
               <ul class="list-disc ml-6">
                 <li>Python, HTML5/CSS</li>
               </ul>
@@ -57,6 +59,7 @@ function App() {
               <h4 class="inline-block w-1/3 text-right italic">Jan '22 - Dec '23</h4>
               <ul class="list-disc ml-6">
                 <li>Head Prefect, Math Learning Area Leader</li>
+                <li>South Australian Certificate of Education (SACE)</li>
                 <li>Stage 2 Academic Award for English Literary Studies</li>
                 <li>Success Through Resilience Award</li>
                 <li>Certificate of Distinction - Australian Mathematics Competition</li>

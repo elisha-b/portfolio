@@ -4,12 +4,10 @@
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.7;
   font-weight: 400;
-  max-width: 100%;
-  width: 100%;
 
   color-scheme: dark;
   color: #fbfef9;
-  background-color: #171A21;
+  background-color: #111318;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -22,19 +20,24 @@ body {
   display: flex;
   place-items: center;
   font-size: 18px;
+  overflow-x: hidden;
+  height: 100%;
+  position: relative;
 }
-
-#cursor-light {
-  height: 15em;
-  width: 15em;
-  background-color: #3c5dff;
+/* TODO: Fix cursor light */
+/* #cursor-light {
+  pointer-events: none;
+  height: 20em;
+  width: 20em;
+  background-color: #0a8a98;
   filter: blur(120px);
   opacity: calc(15%);
   border-radius: 50%;
   position: absolute;
   transform: translate(-50%, -50%);
   overflow: hidden;
-}
+  z-index: -1;
+} */
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -44,12 +47,9 @@ body {
   .logo {
     filter: invert(90%)
   }
-  #cursor-light {
+  /* TODO: Fix cursor light */
+  /* #cursor-light {
     opacity: calc(0%);
-  }
-  .highlight {
-    color: #0e4e3f;
-    font-weight: 500;
-  }
+  } */
 }
 
