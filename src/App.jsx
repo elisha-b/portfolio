@@ -1,5 +1,7 @@
 import linkedInLogo from './assets/linkedinlogo.svg'
 import gitHubLogo from './assets/githublogo.svg'
+import resumeIcon from './assets/resumeicon.png'
+import fullResume from './assets/ElishaBalat_Resume.pdf'
 import './App.css'
 
 function App() { 
@@ -15,6 +17,7 @@ function App() {
             <div class="inline-flex mt-70">
               <a href="https://www.linkedin.com/in/elisha-balat/" target="_blank"><img src={linkedInLogo} alt="LinkedIn Logo" className="logo" /></a>
               <a href="https://github.com/elisha-b" target="_blank"><img src={gitHubLogo} alt="GitHub Logo" className="logo" /></a>
+              <a href={fullResume} target="_blank"><img src={resumeIcon} alt="Resume Icon" className="logo" /></a>
             </div>
           </div>
         </div>
