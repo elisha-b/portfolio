@@ -21,7 +21,7 @@ function App() {
         {/* Information */}
         <div className="info">
           <div>
-            <p class="text-justify">As an aspiring developer, I am currently studying a <span className="highlight">Certificate IV in IT (Programming)</span>  at TAFE SA having previously studied in Singapore and Australia. In Singapore, I earned awards in yearly national and international robotics competitions as a vice-president and secretary of publicity of my secondary school's robotics club. In Australia, I was appointed as a head prefect and maths prefect, organizing events and designing promotional content in senior high school.</p>
+            <p class="text-justify">As an aspiring developer, I am currently enrolled in a <span className="highlight">Diploma of IT (Advanced Programming)</span>  at TAFE SA having previously studied in Singapore and Australia. In Singapore, I earned awards in yearly national and international robotics competitions as a vice-president and secretary of publicity of my secondary school's robotics club. In Australia, I was appointed as a head prefect and maths prefect, organizing events and designing promotional content in senior high school.</p>
           </div>
           <div>
             <h2 class="text-[36px] mt-10 font-semibold">Skills</h2>
